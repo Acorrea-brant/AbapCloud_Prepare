@@ -140,7 +140,7 @@ CLASS zcl_lab_01_var_ajcb IMPLEMENTATION.
     DATA: mv_product TYPE string VALUE 'Laptop',
           mv_barcode TYPE xstring VALUE '12121121211'.
 
-    "Damos impresión
+    "Damos impresión de variables
     out->write( |Impresión de variables Objetos de Datos: | ).
     out->write( |Variable MV_PRODUCT: { mv_product }| ).
     out->write( |Variable MV_BARDCODE: { mv_barcode }| ).
